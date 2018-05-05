@@ -139,42 +139,42 @@ namespace argos {
 
       /* Create the gripper mechanics display list */
       glNewList(m_unGripperMechanicsList, GL_COMPILE);
-      RenderGripperMechanics();
+      //RenderGripperMechanics();
       glEndList();
 
       /* Create the gripper claw display list */
       glNewList(m_unGripperClawList, GL_COMPILE);
-      RenderGripperClaw();
+      //RenderGripperClaw();
       glEndList();
 
       /* Create the gripper claw display list */
       glNewList(m_unRABList, GL_COMPILE);
-      RenderRAB();
+      //RenderRAB();
       glEndList();
 
       /* Create the single distance scanner sensor display list */
       glNewList(m_unDistanceScannerSensorList, GL_COMPILE);
-      RenderDistanceScannerSensor();
+      //RenderDistanceScannerSensor();
       glEndList();
 
       /* Create the distance scanner display list */
       glNewList(m_unDistanceScannerList, GL_COMPILE);
-      RenderDistanceScanner();
+      //RenderDistanceScanner();
       glEndList();
 
       /* Create the iMX display list */
       glNewList(m_unIMXList, GL_COMPILE);
-      RenderIMX();
+      //RenderIMX();
       glEndList();
 
       /* Create the beacon display list */
       glNewList(m_unBeaconList, GL_COMPILE);
-      RenderBeacon();
+      //RenderBeacon();
       glEndList();
 
       /* Create the camera display list */
       glNewList(m_unCameraList, GL_COMPILE);
-      RenderCamera();
+      //RenderCamera();
       glEndList();
    }
 
